@@ -15,7 +15,10 @@ spring:
         # config配置系统加密配置
 #        encrypt:
 #          key: foo
-
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
 jasypt:
   encryptor:
     #    加密密钥
