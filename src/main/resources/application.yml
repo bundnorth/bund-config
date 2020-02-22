@@ -1,0 +1,22 @@
+server:
+  port: 3301
+spring:
+  application:
+    name: bund-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: ENC(qUdpU9bl101gYXcy2Dg+v+sioOKPtDJDMtWY6hyIYdNVAG5+DF2+oigK0QHF/5CHw+ecy0fdqtN+uEfIlND+Z7CUErnYSro67iEJTyZvk1nMuOQJkrkjqPYx1yJKTU3t)
+          username: ENC()tYszFZMOC47LWtZEKpi1HyKlNBw0LTKLVSgHPYotYK5ohW2Dztj+rkVrvLAfRARndardHDkfmd0HbAKATV3iTg==)
+          password: ENC(UdTZX3NTWaYEBo5DtUUf4RRswFM6VSIIB1K/Kcqx5UIqXdMqWRTUgLGu4jEQhy2z)
+          default-label: master # default branch
+          search-paths: config
+        # config配置系统加密配置
+#        encrypt:
+#          key: foo
+
+jasypt:
+  encryptor:
+    #    加密密钥
+    password: HU1gO01Hs93Iu0nGCk59lj
